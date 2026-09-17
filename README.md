@@ -47,6 +47,8 @@ DDGS
 Requests
 BeautifulSoup
 
+## run
+
 ```bash
 # 进入你的文件夹
 cd 你的文件夹
