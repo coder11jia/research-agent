@@ -47,4 +47,23 @@ DDGS
 Requests
 BeautifulSoup
 
+```bash
+# 进入你的文件夹
+cd 你的文件夹
+
+# 设置虚拟环境
+python -m venv .venv
+
+# 激活虚拟环境
+.\.venv\Scripts\activate
+
+# 安装依赖
+pip install -r requirements.txt
+
+# 配置 API Key（把 .env.example 复制为 .env 并填入你的 Key）
+DEEPSEEK_API_KEY=sk-xxxx
+
+# 运行项目、
+python main.py
+```
 
